@@ -1,0 +1,27 @@
+[package]
+name = "frontend"
+version = "0.1.0"
+edition = "2021"
+
+
+[lib]
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[[bin]]
+name = "frontend_bin"
+path = "./src/main.rs"
+
+[dependencies]
+cfg-if = "1.0.0"
+console_error_panic_hook = "0.1.7"
+console_log = "1.0.0"
+leptos = "0.6"
+log = "0.4.20"
+server_fn = "0.6"
+wasm-bindgen = "0.2.89"
+app = { path = "../app" }
+
+
+[features]
+csr = ["leptos/csr", "app/csr"]
+hydrate = ["leptos/hydrate", "app/hydrate"]

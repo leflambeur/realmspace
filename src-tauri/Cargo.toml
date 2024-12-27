@@ -1,0 +1,21 @@
+[package]
+name = "src_tauri"
+version = "0.0.2"
+edition = "2021"
+
+[lib]
+name = "app_lib"
+path = "src/lib.rs"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2.0.3", features = [] }
+
+[dependencies]
+tauri = { version = "2.0.3", features = ["devtools"] }
+serde_json = "*"
+#tauri-plugin-devtools = { git = "https://github.com/crabnebula-dev/devtools", version = "2.0.0-beta.0" }
+
+[features]
+#default = ["custom-protocol"]
+custom-protocol = ["tauri/custom-protocol"]
