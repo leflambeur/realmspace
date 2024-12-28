@@ -7,18 +7,13 @@ edition = "2021"
 crate-type = ["staticlib", "cdylib", "rlib"]
 
 [dependencies]
-leptos_meta = "0.6"
+
 backend = { path = "../backend" }
-leptos = "0.6"
-tracing = "0.1"
-leptos_router = "0.6"
+leptos = "0.7"
+leptos_router = "0.7"
+leptos_meta = "0.7"
 
 [features]
-csr = ["leptos/csr", "leptos_meta/csr", "leptos_router/csr"]
-hydrate = [
-  "leptos/hydrate",
-  "leptos_meta/hydrate",
-  "backend/hydrate",
-  "leptos_router/hydrate",
-]
-ssr = ["leptos/ssr", "leptos_meta/ssr", "backend/ssr", "leptos_router/ssr"]
+csr = ["leptos/csr"]
+hydrate = ["leptos/hydrate", "backend/hydrate"]
+ssr = ["leptos/ssr", "backend/ssr", "leptos_router/ssr"]

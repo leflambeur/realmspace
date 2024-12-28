@@ -15,10 +15,10 @@ path = "./src/main.rs"
 cfg-if = "1.0.0"
 console_error_panic_hook = "0.1.7"
 console_log = "1.0.0"
-leptos = "0.6"
-log = "0.4.20"
-server_fn = "0.6"
-wasm-bindgen = "0.2.89"
+leptos = "0.7"
+log = "0.4.22"
+server_fn = "0.7"
+wasm-bindgen = "0.2.99"
 app = { path = "../app" }
 
 
