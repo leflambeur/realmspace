@@ -9,9 +9,9 @@ crate-type = ["staticlib", "cdylib", "rlib"]
 [dependencies]
 
 backend = { path = "../backend" }
-leptos = "0.7"
-leptos_router = "0.7"
-leptos_meta = "0.7"
+leptos = { workspace = true }
+leptos_router = { workspace = true }
+leptos_meta = { workspace = true }
 
 [features]
 csr = ["leptos/csr"]

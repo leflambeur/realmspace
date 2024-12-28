@@ -1,0 +1,979 @@
+base64 v0.21.7
+└── swift-rs v1.0.7
+    └── tauri-utils v2.1.0
+        ├── tauri-build v2.0.3
+        │   [build-dependencies]
+        │   ├── src_tauri v0.0.2 (/Users/williamgodfrey/workfolder/personal/realmspace/src-tauri)
+        │   └── tauri v2.1.1
+        │       └── src_tauri v0.0.2 (/Users/williamgodfrey/workfolder/personal/realmspace/src-tauri)
+        ├── tauri-codegen v2.0.3
+        │   └── tauri-macros v2.0.3 (proc-macro)
+        │       └── tauri v2.1.1 (*)
+        └── tauri-macros v2.0.3 (proc-macro) (*)
+        [build-dependencies]
+        └── tauri v2.1.1 (*)
+
+base64 v0.22.1
+├── leptos v0.7.2
+│   ├── app v0.1.0 (/Users/williamgodfrey/workfolder/personal/realmspace/app)
+│   │   ├── frontend v0.1.0 (/Users/williamgodfrey/workfolder/personal/realmspace/frontend)
+│   │   └── server v0.1.0 (/Users/williamgodfrey/workfolder/personal/realmspace/server)
+│   ├── backend v0.1.0 (/Users/williamgodfrey/workfolder/personal/realmspace/backend)
+│   │   ├── app v0.1.0 (/Users/williamgodfrey/workfolder/personal/realmspace/app) (*)
+│   │   └── server v0.1.0 (/Users/williamgodfrey/workfolder/personal/realmspace/server)
+│   ├── frontend v0.1.0 (/Users/williamgodfrey/workfolder/personal/realmspace/frontend)
+│   ├── leptos_axum v0.7.2
+│   │   ├── backend v0.1.0 (/Users/williamgodfrey/workfolder/personal/realmspace/backend) (*)
+│   │   └── server v0.1.0 (/Users/williamgodfrey/workfolder/personal/realmspace/server)
+│   ├── leptos_integration_utils v0.7.2
+│   │   └── leptos_axum v0.7.2 (*)
+│   ├── leptos_meta v0.7.2
+│   │   ├── app v0.1.0 (/Users/williamgodfrey/workfolder/personal/realmspace/app) (*)
+│   │   ├── leptos_axum v0.7.2 (*)
+│   │   └── leptos_integration_utils v0.7.2 (*)
+│   ├── leptos_router v0.7.2
+│   │   ├── app v0.1.0 (/Users/williamgodfrey/workfolder/personal/realmspace/app) (*)
+│   │   ├── leptos_axum v0.7.2 (*)
+│   │   ├── leptos_integration_utils v0.7.2 (*)
+│   │   └── server v0.1.0 (/Users/williamgodfrey/workfolder/personal/realmspace/server)
+│   └── server v0.1.0 (/Users/williamgodfrey/workfolder/personal/realmspace/server)
+├── leptos_server v0.7.2
+│   ├── backend v0.1.0 (/Users/williamgodfrey/workfolder/personal/realmspace/backend) (*)
+│   └── leptos v0.7.2 (*)
+├── plist v1.7.0
+│   ├── tauri v2.1.1 (*)
+│   └── tauri-codegen v2.0.3 (*)
+├── reqwest v0.12.11
+│   └── tauri v2.1.1 (*)
+├── tauri-codegen v2.0.3 (*)
+└── tonic v0.12.3
+    ├── opentelemetry-otlp v0.27.0
+    │   └── server v0.1.0 (/Users/williamgodfrey/workfolder/personal/realmspace/server)
+    └── opentelemetry-proto v0.27.0
+        └── opentelemetry-otlp v0.27.0 (*)
+
+bitflags v1.3.2
+├── png v0.17.16
+│   ├── ico v0.3.0
+│   │   └── tauri-codegen v2.0.3 (*)
+│   ├── muda v0.15.3
+│   │   └── tauri v2.1.1 (*)
+│   └── tauri-codegen v2.0.3 (*)
+└── selectors v0.22.0
+    └── kuchikiki v0.8.2
+        ├── tauri-utils v2.1.0 (*)
+        └── tauri-utils v2.1.0
+            ├── tauri v2.1.1 (*)
+            ├── tauri-runtime v2.2.0
+            │   ├── tauri v2.1.1 (*)
+            │   └── tauri-runtime-wry v2.2.0
+            │       └── tauri v2.1.1 (*)
+            └── tauri-runtime-wry v2.2.0 (*)
+
+bitflags v2.6.0
+├── cocoa v0.26.0
+│   └── tao v0.30.8
+│       └── tauri-runtime-wry v2.2.0 (*)
+├── cocoa-foundation v0.2.0
+│   └── cocoa v0.26.0 (*)
+├── core-graphics v0.24.0
+│   ├── cocoa v0.26.0 (*)
+│   └── tao v0.30.8 (*)
+├── core-graphics-types v0.2.0
+│   ├── cocoa-foundation v0.2.0 (*)
+│   └── core-graphics v0.24.0 (*)
+├── keyboard-types v0.7.0
+│   └── muda v0.15.3 (*)
+├── objc2-app-kit v0.2.2
+│   ├── muda v0.15.3 (*)
+│   ├── objc2-web-kit v0.2.2
+│   │   └── wry v0.47.2
+│   │       └── tauri-runtime-wry v2.2.0 (*)
+│   ├── tauri v2.1.1 (*)
+│   ├── tauri-runtime-wry v2.2.0 (*)
+│   ├── window-vibrancy v0.5.2
+│   │   └── tauri v2.1.1 (*)
+│   └── wry v0.47.2 (*)
+├── objc2-foundation v0.2.2
+│   ├── muda v0.15.3 (*)
+│   ├── objc2-app-kit v0.2.2 (*)
+│   ├── objc2-web-kit v0.2.2 (*)
+│   ├── tauri v2.1.1 (*)
+│   ├── tauri-runtime-wry v2.2.0 (*)
+│   ├── window-vibrancy v0.5.2 (*)
+│   └── wry v0.47.2 (*)
+├── objc2-web-kit v0.2.2 (*)
+├── tao v0.30.8 (*)
+└── tower-http v0.6.2
+    ├── backend v0.1.0 (/Users/williamgodfrey/workfolder/personal/realmspace/backend) (*)
+    ├── leptos_axum v0.7.2 (*)
+    └── server v0.1.0 (/Users/williamgodfrey/workfolder/personal/realmspace/server)
+
+camino v1.1.9
+└── leptos_hot_reload v0.7.2
+    ├── leptos v0.7.2 (*)
+    └── leptos_macro v0.7.2 (proc-macro)
+        ├── leptos v0.7.2 (*)
+        └── leptos_axum v0.7.2 (*)
+
+camino v1.1.9
+└── cargo_metadata v0.18.1
+    └── tauri-utils v2.1.0 (*)
+
+convert_case v0.4.0
+└── derive_more v0.99.18 (proc-macro)
+    └── selectors v0.22.0 (*)
+
+convert_case v0.6.0
+├── config v0.14.1
+│   └── leptos_config v0.7.2
+│       ├── leptos v0.7.2 (*)
+│       └── leptos_integration_utils v0.7.2 (*)
+├── leptos_macro v0.7.2 (proc-macro) (*)
+├── reactive_stores_macro v0.1.0 (proc-macro)
+│   └── reactive_stores v0.1.2
+│       └── tachys v0.1.2
+│           ├── leptos v0.7.2 (*)
+│           ├── leptos_dom v0.7.2
+│           │   └── leptos v0.7.2 (*)
+│           ├── leptos_router v0.7.2 (*)
+│           └── leptos_server v0.7.2 (*)
+└── server_fn_macro v0.7.2
+    ├── leptos_macro v0.7.2 (proc-macro) (*)
+    └── server_fn_macro_default v0.7.2 (proc-macro)
+        └── server_fn v0.7.2
+            ├── frontend v0.1.0 (/Users/williamgodfrey/workfolder/personal/realmspace/frontend)
+            ├── leptos v0.7.2 (*)
+            ├── leptos_axum v0.7.2 (*)
+            └── leptos_server v0.7.2 (*)
+
+getrandom v0.1.16
+├── rand v0.7.3
+│   └── phf_generator v0.8.0
+│       ├── phf_codegen v0.8.0
+│       │   [build-dependencies]
+│       │   └── selectors v0.22.0 (*)
+│       └── phf_macros v0.8.0 (proc-macro)
+│           └── phf v0.8.0
+│               ├── cssparser v0.27.2
+│               │   ├── kuchikiki v0.8.2 (*)
+│               │   └── selectors v0.22.0 (*)
+│               └── selectors v0.22.0 (*)
+└── rand_core v0.5.1
+    ├── rand v0.7.3 (*)
+    ├── rand_chacha v0.2.2
+    │   └── rand v0.7.3 (*)
+    └── rand_pcg v0.2.1
+        └── rand v0.7.3 (*)
+
+getrandom v0.2.15
+├── rand_core v0.6.4
+│   ├── rand v0.8.5
+│   │   ├── leptos v0.7.2 (*)
+│   │   ├── opentelemetry_sdk v0.27.1
+│   │   │   ├── opentelemetry-otlp v0.27.0 (*)
+│   │   │   ├── opentelemetry-proto v0.27.0 (*)
+│   │   │   ├── opentelemetry-stdout v0.27.0
+│   │   │   │   └── server v0.1.0 (/Users/williamgodfrey/workfolder/personal/realmspace/server)
+│   │   │   ├── server v0.1.0 (/Users/williamgodfrey/workfolder/personal/realmspace/server)
+│   │   │   └── tracing-opentelemetry v0.28.0
+│   │   │       └── server v0.1.0 (/Users/williamgodfrey/workfolder/personal/realmspace/server)
+│   │   ├── phf_generator v0.10.0
+│   │   │   ├── phf_codegen v0.10.0
+│   │   │   │   [build-dependencies]
+│   │   │   │   └── markup5ever v0.11.0
+│   │   │   │       └── html5ever v0.26.0
+│   │   │   │           ├── kuchikiki v0.8.2 (*)
+│   │   │   │           ├── tauri-utils v2.1.0 (*)
+│   │   │   │           └── tauri-utils v2.1.0 (*)
+│   │   │   └── string_cache_codegen v0.5.2
+│   │   │       [build-dependencies]
+│   │   │       └── markup5ever v0.11.0 (*)
+│   │   ├── phf_generator v0.11.2
+│   │   │   └── phf_macros v0.11.2 (proc-macro)
+│   │   │       └── phf v0.11.2
+│   │   │           ├── tauri-utils v2.1.0 (*)
+│   │   │           └── tauri-utils v2.1.0 (*)
+│   │   └── tower v0.4.13
+│   │       └── tonic v0.12.3 (*)
+│   └── rand_chacha v0.3.1
+│       └── rand v0.8.5 (*)
+├── tauri v2.1.1 (*)
+└── uuid v1.11.0
+    ├── cfb v0.7.3
+    │   └── infer v0.16.0
+    │       ├── tauri-utils v2.1.0 (*)
+    │       └── tauri-utils v2.1.0 (*)
+    ├── leptos_macro v0.7.2 (proc-macro) (*)
+    ├── schemars v0.8.21
+    │   ├── tauri-build v2.0.3 (*)
+    │   └── tauri-utils v2.1.0 (*)
+    ├── tauri-codegen v2.0.3 (*)
+    └── tauri-utils v2.1.0 (*)
+
+hashbrown v0.12.3
+├── indexmap v1.9.3
+│   └── tower v0.4.13 (*)
+└── indexmap v1.9.3
+    ├── kuchikiki v0.8.2 (*)
+    └── schemars v0.8.21 (*)
+
+hashbrown v0.14.5
+└── dashmap v6.1.0
+    ├── leptos_axum v0.7.2 (*)
+    └── server_fn v0.7.2 (*)
+
+hashbrown v0.15.2
+└── indexmap v2.7.0
+    ├── h2 v0.4.7
+    │   ├── hyper v1.5.2
+    │   │   ├── axum v0.7.9
+    │   │   │   ├── backend v0.1.0 (/Users/williamgodfrey/workfolder/personal/realmspace/backend) (*)
+    │   │   │   ├── leptos_axum v0.7.2 (*)
+    │   │   │   ├── server v0.1.0 (/Users/williamgodfrey/workfolder/personal/realmspace/server)
+    │   │   │   ├── server_fn v0.7.2 (*)
+    │   │   │   └── tonic v0.12.3 (*)
+    │   │   ├── hyper-timeout v0.5.2
+    │   │   │   └── tonic v0.12.3 (*)
+    │   │   ├── hyper-util v0.1.10
+    │   │   │   ├── axum v0.7.9 (*)
+    │   │   │   ├── hyper-timeout v0.5.2 (*)
+    │   │   │   ├── reqwest v0.12.11 (*)
+    │   │   │   └── tonic v0.12.3 (*)
+    │   │   ├── reqwest v0.12.11 (*)
+    │   │   ├── server_fn v0.7.2 (*)
+    │   │   └── tonic v0.12.3 (*)
+    │   └── tonic v0.12.3 (*)
+    ├── leptos_hot_reload v0.7.2 (*)
+    ├── leptos_meta v0.7.2 (*)
+    ├── plist v1.7.0 (*)
+    ├── tachys v0.1.2 (*)
+    ├── toml_edit v0.19.15
+    │   └── toml v0.7.8
+    │       └── tauri-winres v0.1.1
+    │           └── tauri-build v2.0.3 (*)
+    └── toml_edit v0.20.2
+        └── toml v0.8.2
+            ├── cargo_toml v0.17.2
+            │   └── tauri-build v2.0.3 (*)
+            ├── config v0.14.1 (*)
+            ├── embed-resource v2.5.1
+            │   └── tauri-winres v0.1.1 (*)
+            ├── tauri-build v2.0.3 (*)
+            ├── tauri-utils v2.1.0 (*)
+            └── tauri-utils v2.1.0 (*)
+
+indexmap v1.9.3 (*)
+
+indexmap v1.9.3 (*)
+
+indexmap v2.7.0 (*)
+
+itoa v0.4.8
+└── cssparser v0.27.2 (*)
+
+itoa v1.0.14
+├── axum v0.7.9 (*)
+├── http v1.2.0
+│   ├── axum v0.7.9 (*)
+│   ├── axum-core v0.4.5
+│   │   └── axum v0.7.9 (*)
+│   ├── gloo-net v0.6.0
+│   │   ├── leptos_router v0.7.2 (*)
+│   │   └── server_fn v0.7.2 (*)
+│   ├── h2 v0.4.7 (*)
+│   ├── http-body v1.0.1
+│   │   ├── axum v0.7.9 (*)
+│   │   ├── axum-core v0.4.5 (*)
+│   │   ├── http-body-util v0.1.2
+│   │   │   ├── axum v0.7.9 (*)
+│   │   │   ├── axum-core v0.4.5 (*)
+│   │   │   ├── reqwest v0.12.11 (*)
+│   │   │   ├── server_fn v0.7.2 (*)
+│   │   │   ├── tonic v0.12.3 (*)
+│   │   │   └── tower-http v0.6.2 (*)
+│   │   ├── hyper v1.5.2 (*)
+│   │   ├── hyper-util v0.1.10 (*)
+│   │   ├── reqwest v0.12.11 (*)
+│   │   ├── tonic v0.12.3 (*)
+│   │   └── tower-http v0.6.2 (*)
+│   ├── http-body-util v0.1.2 (*)
+│   ├── hyper v1.5.2 (*)
+│   ├── hyper-util v0.1.10 (*)
+│   ├── multer v3.1.0
+│   │   └── axum v0.7.9 (*)
+│   ├── opentelemetry-otlp v0.27.0 (*)
+│   ├── reqwest v0.12.11 (*)
+│   ├── server_fn v0.7.2 (*)
+│   ├── tauri v2.1.1 (*)
+│   ├── tauri-runtime v2.2.0 (*)
+│   ├── tauri-runtime-wry v2.2.0 (*)
+│   ├── tauri-utils v2.1.0 (*)
+│   ├── tauri-utils v2.1.0 (*)
+│   ├── tonic v0.12.3 (*)
+│   ├── tower-http v0.6.2 (*)
+│   └── wry v0.47.2 (*)
+├── hyper v1.5.2 (*)
+├── serde_json v1.0.134
+│   ├── axum v0.7.9 (*)
+│   ├── codee v0.2.0
+│   │   └── leptos_server v0.7.2 (*)
+│   ├── gloo-net v0.6.0 (*)
+│   ├── gloo-utils v0.2.0
+│   │   └── gloo-net v0.6.0 (*)
+│   ├── leptos_server v0.7.2 (*)
+│   ├── opentelemetry-stdout v0.27.0 (*)
+│   ├── opentelemetry_sdk v0.27.1 (*)
+│   ├── reqwest v0.12.11 (*)
+│   ├── serialize-to-javascript v0.1.1
+│   │   └── tauri v2.1.1 (*)
+│   ├── server_fn v0.7.2 (*)
+│   ├── src_tauri v0.0.2 (/Users/williamgodfrey/workfolder/personal/realmspace/src-tauri)
+│   ├── tauri v2.1.1 (*)
+│   ├── tauri-runtime v2.2.0 (*)
+│   └── tauri-utils v2.1.0 (*)
+├── serde_json v1.0.134
+│   ├── cargo_metadata v0.18.1 (*)
+│   ├── json-patch v3.0.1
+│   │   ├── tauri-build v2.0.3 (*)
+│   │   ├── tauri-codegen v2.0.3 (*)
+│   │   ├── tauri-utils v2.1.0 (*)
+│   │   └── tauri-utils v2.1.0 (*)
+│   ├── jsonptr v0.6.3
+│   │   └── json-patch v3.0.1 (*)
+│   ├── schemars v0.8.21 (*)
+│   ├── swift-rs v1.0.7 (*)
+│   ├── tauri-build v2.0.3 (*)
+│   ├── tauri-codegen v2.0.3 (*)
+│   └── tauri-utils v2.1.0 (*)
+│   [build-dependencies]
+│   └── swift-rs v1.0.7 (*)
+├── serde_path_to_error v0.1.16
+│   └── axum v0.7.9 (*)
+├── serde_urlencoded v0.7.1
+│   ├── axum v0.7.9 (*)
+│   └── reqwest v0.12.11 (*)
+├── time v0.3.37
+│   ├── cookie v0.18.1
+│   │   └── wry v0.47.2 (*)
+│   └── plist v1.7.0 (*)
+└── time v0.3.37
+    └── tauri-codegen v2.0.3 (*)
+
+log v0.4.22
+├── html5ever v0.26.0 (*)
+├── markup5ever v0.11.0 (*)
+├── selectors v0.22.0 (*)
+├── tauri-utils v2.1.0 (*)
+└── wasm-bindgen-backend v0.2.99
+    └── wasm-bindgen-macro-support v0.2.99
+        └── wasm-bindgen-macro v0.2.99 (proc-macro)
+            └── wasm-bindgen v0.2.99
+                ├── console_error_panic_hook v0.1.7
+                │   └── frontend v0.1.0 (/Users/williamgodfrey/workfolder/personal/realmspace/frontend)
+                ├── frontend v0.1.0 (/Users/williamgodfrey/workfolder/personal/realmspace/frontend)
+                ├── gloo-net v0.6.0 (*)
+                ├── gloo-utils v0.2.0 (*)
+                ├── hydration_context v0.2.1
+                │   ├── leptos v0.7.2 (*)
+                │   ├── leptos_axum v0.7.2 (*)
+                │   ├── leptos_integration_utils v0.7.2 (*)
+                │   ├── leptos_server v0.7.2 (*)
+                │   └── reactive_graph v0.1.1
+                │       ├── leptos v0.7.2 (*)
+                │       ├── leptos_dom v0.7.2 (*)
+                │       ├── leptos_integration_utils v0.7.2 (*)
+                │       ├── leptos_router v0.7.2 (*)
+                │       ├── leptos_server v0.7.2 (*)
+                │       ├── reactive_stores v0.1.2 (*)
+                │       └── tachys v0.1.2 (*)
+                ├── js-sys v0.3.76
+                │   ├── gloo-net v0.6.0 (*)
+                │   ├── gloo-utils v0.2.0 (*)
+                │   ├── hydration_context v0.2.1 (*)
+                │   ├── leptos_dom v0.7.2 (*)
+                │   ├── leptos_router v0.7.2 (*)
+                │   ├── server_fn v0.7.2 (*)
+                │   ├── tachys v0.1.2 (*)
+                │   ├── wasm-bindgen-futures v0.4.49
+                │   │   ├── any_spawner v0.2.0
+                │   │   │   ├── leptos v0.7.2 (*)
+                │   │   │   ├── leptos_axum v0.7.2 (*)
+                │   │   │   ├── leptos_router v0.7.2 (*)
+                │   │   │   ├── leptos_server v0.7.2 (*)
+                │   │   │   ├── reactive_graph v0.1.1 (*)
+                │   │   │   └── tachys v0.1.2 (*)
+                │   │   ├── gloo-net v0.6.0 (*)
+                │   │   ├── server_fn v0.7.2 (*)
+                │   │   └── wasm-streams v0.4.2
+                │   │       └── server_fn v0.7.2 (*)
+                │   ├── wasm-streams v0.4.2 (*)
+                │   └── web-sys v0.3.76
+                │       ├── console_log v1.0.0
+                │       │   └── frontend v0.1.0 (/Users/williamgodfrey/workfolder/personal/realmspace/frontend)
+                │       ├── gloo-net v0.6.0 (*)
+                │       ├── gloo-utils v0.2.0 (*)
+                │       ├── leptos v0.7.2 (*)
+                │       ├── leptos_dom v0.7.2 (*)
+                │       ├── leptos_meta v0.7.2 (*)
+                │       ├── leptos_router v0.7.2 (*)
+                │       ├── server_fn v0.7.2 (*)
+                │       ├── tachys v0.1.2 (*)
+                │       └── wasm-streams v0.4.2 (*)
+                ├── leptos v0.7.2 (*)
+                ├── leptos_dom v0.7.2 (*)
+                ├── leptos_meta v0.7.2 (*)
+                ├── leptos_router v0.7.2 (*)
+                ├── server_fn v0.7.2 (*)
+                ├── tachys v0.1.2 (*)
+                ├── wasm-bindgen-futures v0.4.49 (*)
+                ├── wasm-streams v0.4.2 (*)
+                └── web-sys v0.3.76 (*)
+
+log v0.4.22
+├── console_log v1.0.0 (*)
+├── frontend v0.1.0 (/Users/williamgodfrey/workfolder/personal/realmspace/frontend)
+├── reqwest v0.12.11 (*)
+├── tao v0.30.8 (*)
+├── tauri v2.1.1 (*)
+├── tauri-runtime-wry v2.2.0 (*)
+├── tauri-utils v2.1.0 (*)
+├── tracing v0.1.41
+│   ├── axum v0.7.9 (*)
+│   ├── axum-core v0.4.5 (*)
+│   ├── h2 v0.4.7 (*)
+│   ├── hyper-util v0.1.10 (*)
+│   ├── opentelemetry v0.27.1
+│   │   ├── opentelemetry-otlp v0.27.0 (*)
+│   │   ├── opentelemetry-proto v0.27.0 (*)
+│   │   ├── opentelemetry-stdout v0.27.0 (*)
+│   │   ├── opentelemetry_sdk v0.27.1 (*)
+│   │   ├── server v0.1.0 (/Users/williamgodfrey/workfolder/personal/realmspace/server)
+│   │   └── tracing-opentelemetry v0.28.0 (*)
+│   ├── opentelemetry-otlp v0.27.0 (*)
+│   ├── opentelemetry_sdk v0.27.1 (*)
+│   ├── server v0.1.0 (/Users/williamgodfrey/workfolder/personal/realmspace/server)
+│   ├── tonic v0.12.3 (*)
+│   ├── tower v0.4.13 (*)
+│   ├── tower v0.5.2
+│   │   ├── axum v0.7.9 (*)
+│   │   ├── backend v0.1.0 (/Users/williamgodfrey/workfolder/personal/realmspace/backend) (*)
+│   │   ├── leptos_axum v0.7.2 (*)
+│   │   ├── reqwest v0.12.11 (*)
+│   │   └── server_fn v0.7.2 (*)
+│   ├── tower-http v0.6.2 (*)
+│   ├── tracing-opentelemetry v0.28.0 (*)
+│   └── tracing-subscriber v0.3.19
+│       ├── server v0.1.0 (/Users/williamgodfrey/workfolder/personal/realmspace/server)
+│       └── tracing-opentelemetry v0.28.0 (*)
+└── tracing-log v0.2.0
+    ├── tracing-opentelemetry v0.28.0 (*)
+    └── tracing-subscriber v0.3.19 (*)
+
+phf v0.8.0 (*)
+
+phf v0.10.1
+└── markup5ever v0.11.0 (*)
+
+phf v0.11.2 (*)
+
+phf_codegen v0.8.0 (*)
+
+phf_codegen v0.10.0 (*)
+
+phf_generator v0.8.0 (*)
+
+phf_generator v0.10.0 (*)
+
+phf_generator v0.11.2 (*)
+
+phf_macros v0.8.0 (proc-macro) (*)
+
+phf_macros v0.11.2 (proc-macro) (*)
+
+phf_shared v0.8.0
+├── phf v0.8.0 (*)
+├── phf_codegen v0.8.0 (*)
+├── phf_generator v0.8.0 (*)
+└── phf_macros v0.8.0 (proc-macro) (*)
+
+phf_shared v0.10.0
+├── phf v0.10.1 (*)
+├── phf_codegen v0.10.0 (*)
+├── phf_generator v0.10.0 (*)
+├── string_cache v0.8.7
+│   └── markup5ever v0.11.0 (*)
+└── string_cache_codegen v0.5.2 (*)
+
+phf_shared v0.11.2
+├── phf v0.11.2 (*)
+├── phf_generator v0.11.2 (*)
+└── phf_macros v0.11.2 (proc-macro) (*)
+
+rand v0.7.3 (*)
+
+rand v0.8.5 (*)
+
+rand_chacha v0.2.2 (*)
+
+rand_chacha v0.3.1 (*)
+
+rand_core v0.5.1 (*)
+
+rand_core v0.6.4 (*)
+
+regex-automata v0.1.10
+└── matchers v0.1.0
+    └── tracing-subscriber v0.3.19 (*)
+
+regex-automata v0.4.9
+└── regex v1.11.1
+    ├── leptos_config v0.7.2 (*)
+    ├── tauri-utils v2.1.0 (*)
+    ├── tauri-utils v2.1.0 (*)
+    ├── tracing-subscriber v0.3.19 (*)
+    └── urlpattern v0.3.0
+        ├── tauri v2.1.1 (*)
+        ├── tauri-utils v2.1.0 (*)
+        └── tauri-utils v2.1.0 (*)
+
+regex-syntax v0.6.29
+└── regex-automata v0.1.10 (*)
+
+regex-syntax v0.8.5
+├── regex v1.11.1 (*)
+└── regex-automata v0.4.9 (*)
+
+semver v1.0.24
+├── cargo_metadata v0.18.1 (*)
+├── rustc_version v0.4.1
+│   └── embed-resource v2.5.1 (*)
+│   [build-dependencies]
+│   └── derive_more v0.99.18 (proc-macro) (*)
+├── tauri-build v2.0.3 (*)
+├── tauri-codegen v2.0.3 (*)
+└── tauri-utils v2.1.0 (*)
+
+semver v1.0.24
+└── tauri-utils v2.1.0 (*)
+
+serde v1.0.217
+├── axum v0.7.9 (*)
+├── bitflags v2.6.0 (*)
+├── bytes v1.9.0
+│   ├── axum v0.7.9 (*)
+│   ├── axum-core v0.4.5 (*)
+│   ├── h2 v0.4.7 (*)
+│   ├── http v1.2.0 (*)
+│   ├── http-body v1.0.1 (*)
+│   ├── http-body-util v0.1.2 (*)
+│   ├── hyper v1.5.2 (*)
+│   ├── hyper-util v0.1.10 (*)
+│   ├── multer v3.1.0 (*)
+│   ├── prost v0.13.4
+│   │   ├── opentelemetry-otlp v0.27.0 (*)
+│   │   ├── opentelemetry-proto v0.27.0 (*)
+│   │   └── tonic v0.12.3 (*)
+│   ├── reqwest v0.12.11 (*)
+│   ├── server_fn v0.7.2 (*)
+│   ├── tauri v2.1.1 (*)
+│   ├── tokio v1.42.0
+│   │   ├── any_spawner v0.2.0 (*)
+│   │   ├── axum v0.7.9 (*)
+│   │   ├── h2 v0.4.7 (*)
+│   │   ├── hyper v1.5.2 (*)
+│   │   ├── hyper-timeout v0.5.2 (*)
+│   │   ├── hyper-util v0.1.10 (*)
+│   │   ├── leptos_axum v0.7.2 (*)
+│   │   ├── opentelemetry-otlp v0.27.0 (*)
+│   │   ├── opentelemetry_sdk v0.27.1 (*)
+│   │   ├── reqwest v0.12.11 (*)
+│   │   ├── server v0.1.0 (/Users/williamgodfrey/workfolder/personal/realmspace/server)
+│   │   ├── tauri v2.1.1 (*)
+│   │   ├── tokio-stream v0.1.17
+│   │   │   ├── opentelemetry_sdk v0.27.1 (*)
+│   │   │   └── tonic v0.12.3 (*)
+│   │   ├── tokio-util v0.7.13
+│   │   │   ├── h2 v0.4.7 (*)
+│   │   │   ├── reqwest v0.12.11 (*)
+│   │   │   ├── tower v0.4.13 (*)
+│   │   │   └── tower-http v0.6.2 (*)
+│   │   ├── tonic v0.12.3 (*)
+│   │   ├── tower v0.4.13 (*)
+│   │   ├── tower v0.5.2 (*)
+│   │   └── tower-http v0.6.2 (*)
+│   ├── tokio-util v0.7.13 (*)
+│   ├── tonic v0.12.3 (*)
+│   └── tower-http v0.6.2 (*)
+├── codee v0.2.0 (*)
+├── config v0.14.1 (*)
+├── dpi v0.1.1
+│   ├── muda v0.15.3 (*)
+│   ├── tao v0.30.8 (*)
+│   ├── tauri-runtime v2.2.0 (*)
+│   └── wry v0.47.2 (*)
+├── gloo-net v0.6.0 (*)
+├── gloo-utils v0.2.0 (*)
+├── hydration_context v0.2.1 (*)
+├── keyboard-types v0.7.0 (*)
+├── leptos v0.7.2 (*)
+├── leptos_config v0.7.2 (*)
+├── leptos_hot_reload v0.7.2 (*)
+├── leptos_server v0.7.2 (*)
+├── muda v0.15.3 (*)
+├── oco_ref v0.2.0
+│   ├── leptos v0.7.2 (*)
+│   └── tachys v0.1.2 (*)
+├── opentelemetry-stdout v0.27.0 (*)
+├── plist v1.7.0 (*)
+├── reactive_graph v0.1.1 (*)
+├── reqwest v0.12.11 (*)
+├── serde_json v1.0.134 (*)
+├── serde_path_to_error v0.1.16 (*)
+├── serde_qs v0.13.0
+│   ├── leptos v0.7.2 (*)
+│   └── server_fn v0.7.2 (*)
+├── serde_spanned v0.6.8
+│   ├── toml v0.7.8 (*)
+│   ├── toml v0.8.2 (*)
+│   ├── toml_edit v0.19.15 (*)
+│   └── toml_edit v0.20.2 (*)
+├── serde_urlencoded v0.7.1 (*)
+├── serialize-to-javascript v0.1.1 (*)
+├── server_fn v0.7.2 (*)
+├── tauri v2.1.1 (*)
+├── tauri-runtime v2.2.0 (*)
+├── tauri-utils v2.1.0 (*)
+├── toml v0.8.2 (*)
+├── toml_datetime v0.6.3
+│   ├── toml v0.7.8 (*)
+│   ├── toml v0.8.2 (*)
+│   ├── toml_edit v0.19.15 (*)
+│   └── toml_edit v0.20.2 (*)
+├── toml_edit v0.20.2 (*)
+├── url v2.5.4
+│   ├── leptos_router v0.7.2 (*)
+│   ├── reqwest v0.12.11 (*)
+│   ├── schemars v0.8.21 (*)
+│   ├── server_fn v0.7.2 (*)
+│   ├── tao v0.30.8 (*)
+│   ├── tauri v2.1.1 (*)
+│   ├── tauri-codegen v2.0.3 (*)
+│   ├── tauri-runtime v2.2.0 (*)
+│   ├── tauri-runtime-wry v2.2.0 (*)
+│   ├── tauri-utils v2.1.0 (*)
+│   ├── tauri-utils v2.1.0 (*)
+│   ├── urlpattern v0.3.0 (*)
+│   └── wry v0.47.2 (*)
+└── uuid v1.11.0
+    └── tauri-utils v2.1.0 (*)
+
+serde v1.0.217
+├── camino v1.1.9 (*)
+├── cargo-platform v0.1.9
+│   └── cargo_metadata v0.18.1 (*)
+├── cargo_metadata v0.18.1 (*)
+├── cargo_toml v0.17.2 (*)
+├── erased-serde v0.4.5
+│   └── serde-untagged v0.1.6
+│       ├── tauri-utils v2.1.0 (*)
+│       └── tauri-utils v2.1.0 (*)
+├── indexmap v1.9.3 (*)
+├── json-patch v3.0.1 (*)
+├── jsonptr v0.6.3 (*)
+├── schemars v0.8.21 (*)
+├── semver v1.0.24 (*)
+├── serde-untagged v0.1.6 (*)
+├── serde_json v1.0.134 (*)
+├── serde_with v3.12.0
+│   ├── tauri-utils v2.1.0 (*)
+│   └── tauri-utils v2.1.0 (*)
+├── string_cache v0.8.7 (*)
+├── swift-rs v1.0.7 (*)
+├── tauri-build v2.0.3 (*)
+├── tauri-codegen v2.0.3 (*)
+├── tauri-utils v2.1.0 (*)
+├── toml v0.7.8 (*)
+├── toml_edit v0.19.15 (*)
+├── urlpattern v0.3.0 (*)
+└── uuid v1.11.0 (*)
+[build-dependencies]
+└── swift-rs v1.0.7 (*)
+
+serde_json v1.0.134 (*)
+
+serde_json v1.0.134 (*)
+
+smallvec v1.13.2
+├── cssparser v0.27.2 (*)
+├── proc-macro-utils v0.10.0
+│   ├── attribute-derive-macro v0.10.3 (proc-macro)
+│   │   └── attribute-derive v0.10.3
+│   │       └── leptos_macro v0.7.2 (proc-macro) (*)
+│   ├── manyhow-macros v0.11.4 (proc-macro)
+│   │   └── manyhow v0.11.4
+│   │       ├── attribute-derive v0.10.3 (*)
+│   │       └── attribute-derive-macro v0.10.3 (proc-macro) (*)
+│   └── quote-use-macros v0.8.4 (proc-macro)
+│       └── quote-use v0.8.4
+│           └── attribute-derive-macro v0.10.3 (proc-macro) (*)
+└── selectors v0.22.0 (*)
+
+smallvec v1.13.2
+├── hyper v1.5.2 (*)
+├── icu_normalizer v1.5.0
+│   └── idna_adapter v1.2.0
+│       └── idna v1.0.3
+│           └── url v2.5.4 (*)
+├── idna v1.0.3 (*)
+├── parking_lot_core v0.9.10
+│   ├── dashmap v6.1.0 (*)
+│   └── parking_lot v0.12.3
+│       ├── leptos_axum v0.7.2 (*)
+│       ├── leptos_hot_reload v0.7.2 (*)
+│       ├── string_cache v0.8.7 (*)
+│       └── tachys v0.1.2 (*)
+├── tracing-opentelemetry v0.28.0 (*)
+└── tracing-subscriber v0.3.19 (*)
+
+syn v1.0.109
+├── phf_macros v0.8.0 (proc-macro) (*)
+└── serialize-to-javascript-impl v0.1.1 (proc-macro)
+    └── serialize-to-javascript v0.1.1 (*)
+[build-dependencies]
+├── cssparser v0.27.2 (*)
+└── html5ever v0.26.0 (*)
+
+syn v2.0.92
+├── async-stream-impl v0.3.6 (proc-macro)
+│   └── async-stream v0.3.6
+│       └── tonic v0.12.3 (*)
+├── async-trait v0.1.83 (proc-macro)
+│   ├── axum v0.7.9 (*)
+│   ├── axum-core v0.4.5 (*)
+│   ├── opentelemetry-otlp v0.27.0 (*)
+│   ├── opentelemetry-stdout v0.27.0 (*)
+│   ├── opentelemetry_sdk v0.27.1 (*)
+│   └── tonic v0.12.3 (*)
+├── attribute-derive v0.10.3 (*)
+├── attribute-derive-macro v0.10.3 (proc-macro) (*)
+├── axum-macros v0.4.2 (proc-macro)
+│   └── server v0.1.0 (/Users/williamgodfrey/workfolder/personal/realmspace/server)
+├── cssparser-macros v0.6.1 (proc-macro)
+│   └── cssparser v0.27.2 (*)
+├── ctor v0.2.9 (proc-macro)
+│   ├── tauri-utils v2.1.0 (*)
+│   └── tauri-utils v2.1.0 (*)
+├── darling_core v0.20.10
+│   ├── darling v0.20.10
+│   │   └── serde_with_macros v3.12.0 (proc-macro)
+│   │       └── serde_with v3.12.0 (*)
+│   └── darling_macro v0.20.10 (proc-macro)
+│       └── darling v0.20.10 (*)
+├── darling_macro v0.20.10 (proc-macro) (*)
+├── derive-where v1.2.7 (proc-macro)
+│   ├── attribute-derive v0.10.3 (*)
+│   └── rstml v0.12.0
+│       ├── leptos_hot_reload v0.7.2 (*)
+│       └── leptos_macro v0.7.2 (proc-macro) (*)
+├── derive_more v0.99.18 (proc-macro) (*)
+├── displaydoc v0.2.5 (proc-macro)
+│   ├── icu_collections v1.5.0
+│   │   ├── icu_normalizer v1.5.0 (*)
+│   │   └── icu_properties v1.5.1
+│   │       ├── icu_normalizer v1.5.0 (*)
+│   │       └── idna_adapter v1.2.0 (*)
+│   ├── icu_locid v1.5.0
+│   │   ├── icu_locid_transform v1.5.0
+│   │   │   └── icu_properties v1.5.1 (*)
+│   │   └── icu_provider v1.5.0
+│   │       ├── icu_locid_transform v1.5.0 (*)
+│   │       ├── icu_normalizer v1.5.0 (*)
+│   │       └── icu_properties v1.5.1 (*)
+│   ├── icu_locid_transform v1.5.0 (*)
+│   ├── icu_normalizer v1.5.0 (*)
+│   ├── icu_properties v1.5.1 (*)
+│   ├── icu_provider v1.5.0 (*)
+│   └── tinystr v0.7.6
+│       ├── icu_locid v1.5.0 (*)
+│       ├── icu_locid_transform v1.5.0 (*)
+│       ├── icu_properties v1.5.1 (*)
+│       └── icu_provider v1.5.0 (*)
+├── foreign-types-macros v0.2.3 (proc-macro)
+│   └── foreign-types v0.5.0
+│       ├── cocoa v0.26.0 (*)
+│       └── core-graphics v0.24.0 (*)
+├── futures-macro v0.3.31 (proc-macro)
+│   └── futures-util v0.3.31
+│       ├── axum v0.7.9 (*)
+│       ├── axum-core v0.4.5 (*)
+│       ├── futures v0.3.31
+│       │   ├── any_spawner v0.2.0 (*)
+│       │   ├── hydration_context v0.2.1 (*)
+│       │   ├── leptos v0.7.2 (*)
+│       │   ├── leptos_axum v0.7.2 (*)
+│       │   ├── leptos_integration_utils v0.7.2 (*)
+│       │   ├── leptos_meta v0.7.2 (*)
+│       │   ├── leptos_router v0.7.2 (*)
+│       │   ├── leptos_server v0.7.2 (*)
+│       │   ├── reactive_graph v0.1.1 (*)
+│       │   ├── server_fn v0.7.2 (*)
+│       │   └── tachys v0.1.2 (*)
+│       ├── futures-executor v0.3.31
+│       │   ├── futures v0.3.31 (*)
+│       │   └── opentelemetry_sdk v0.27.1 (*)
+│       ├── http-body-util v0.1.2 (*)
+│       ├── hyper v1.5.2 (*)
+│       ├── hyper-util v0.1.10 (*)
+│       ├── multer v3.1.0 (*)
+│       ├── opentelemetry-stdout v0.27.0 (*)
+│       ├── opentelemetry_sdk v0.27.1 (*)
+│       ├── reqwest v0.12.11 (*)
+│       ├── tauri v2.1.1 (*)
+│       ├── tower v0.4.13 (*)
+│       ├── tower v0.5.2 (*)
+│       ├── tower-http v0.6.2 (*)
+│       └── wasm-streams v0.4.2 (*)
+├── icu_provider_macros v1.5.0 (proc-macro)
+│   └── icu_provider v1.5.0 (*)
+├── leptos_macro v0.7.2 (proc-macro) (*)
+├── manyhow v0.11.4 (*)
+├── phf_macros v0.11.2 (proc-macro) (*)
+├── pin-project-internal v1.1.7 (proc-macro)
+│   └── pin-project v1.1.7
+│       ├── gloo-net v0.6.0 (*)
+│       ├── tonic v0.12.3 (*)
+│       └── tower v0.4.13 (*)
+├── prettyplease v0.2.25
+│   └── leptos_macro v0.7.2 (proc-macro) (*)
+├── proc-macro-error2 v2.0.1
+│   ├── leptos_macro v0.7.2 (proc-macro) (*)
+│   ├── leptos_router_macro v0.7.2 (proc-macro)
+│   │   └── leptos_router v0.7.2 (*)
+│   └── reactive_stores_macro v0.1.0 (proc-macro) (*)
+├── prost-derive v0.13.4 (proc-macro)
+│   └── prost v0.13.4 (*)
+├── quote-use-macros v0.8.4 (proc-macro) (*)
+├── reactive_stores_macro v0.1.0 (proc-macro) (*)
+├── schemars_derive v0.8.21 (proc-macro)
+│   └── schemars v0.8.21 (*)
+├── serde_derive v1.0.217 (proc-macro)
+│   ├── serde v1.0.217 (*)
+│   ├── serde v1.0.217 (*)
+│   └── serde_with v3.12.0 (*)
+├── serde_derive_internals v0.29.1
+│   └── schemars_derive v0.8.21 (proc-macro) (*)
+├── serde_repr v0.1.19 (proc-macro)
+│   └── tauri v2.1.1 (*)
+├── serde_with_macros v3.12.0 (proc-macro) (*)
+├── server_fn_macro v0.7.2 (*)
+├── server_fn_macro_default v0.7.2 (proc-macro) (*)
+├── syn_derive v0.1.8 (proc-macro)
+│   └── rstml v0.12.0 (*)
+├── synstructure v0.13.1
+│   ├── yoke-derive v0.7.5 (proc-macro)
+│   │   └── yoke v0.7.5
+│   │       ├── icu_collections v1.5.0 (*)
+│   │       ├── icu_provider v1.5.0 (*)
+│   │       └── zerovec v0.10.4
+│   │           ├── icu_collections v1.5.0 (*)
+│   │           ├── icu_locid v1.5.0 (*)
+│   │           ├── icu_locid_transform v1.5.0 (*)
+│   │           ├── icu_normalizer v1.5.0 (*)
+│   │           ├── icu_properties v1.5.1 (*)
+│   │           ├── icu_provider v1.5.0 (*)
+│   │           └── tinystr v0.7.6 (*)
+│   └── zerofrom-derive v0.1.5 (proc-macro)
+│       └── zerofrom v0.1.5
+│           ├── icu_collections v1.5.0 (*)
+│           ├── icu_provider v1.5.0 (*)
+│           ├── yoke v0.7.5 (*)
+│           └── zerovec v0.10.4 (*)
+├── tauri-codegen v2.0.3 (*)
+├── tauri-macros v2.0.3 (proc-macro) (*)
+├── thiserror-impl v1.0.69 (proc-macro)
+│   └── thiserror v1.0.69
+│       ├── cargo_metadata v0.18.1 (*)
+│       ├── codee v0.2.0 (*)
+│       ├── gloo-net v0.6.0 (*)
+│       ├── json-patch v3.0.1 (*)
+│       ├── muda v0.15.3 (*)
+│       ├── oco_ref v0.2.0 (*)
+│       ├── opentelemetry v0.27.1 (*)
+│       ├── opentelemetry-otlp v0.27.0 (*)
+│       ├── opentelemetry-stdout v0.27.0 (*)
+│       ├── opentelemetry_sdk v0.27.1 (*)
+│       ├── rstml v0.12.0 (*)
+│       ├── serde_qs v0.13.0 (*)
+│       └── wry v0.47.2 (*)
+├── thiserror-impl v2.0.9 (proc-macro)
+│   └── thiserror v2.0.9
+│       ├── any_spawner v0.2.0 (*)
+│       ├── leptos v0.7.2 (*)
+│       ├── leptos_config v0.7.2 (*)
+│       ├── leptos_router v0.7.2 (*)
+│       ├── reactive_graph v0.1.1 (*)
+│       ├── server_fn v0.7.2 (*)
+│       ├── tauri v2.1.1 (*)
+│       ├── tauri-codegen v2.0.3 (*)
+│       ├── tauri-runtime v2.2.0 (*)
+│       ├── tauri-utils v2.1.0 (*)
+│       └── tauri-utils v2.1.0 (*)
+├── tokio-macros v2.4.0 (proc-macro)
+│   └── tokio v1.42.0 (*)
+├── tracing-attributes v0.1.28 (proc-macro)
+│   └── tracing v0.1.41 (*)
+├── typed-builder-macro v0.20.0 (proc-macro)
+│   ├── leptos v0.7.2 (*)
+│   └── typed-builder v0.20.0
+│       ├── leptos v0.7.2 (*)
+│       └── leptos_config v0.7.2 (*)
+├── wasm-bindgen-backend v0.2.99 (*)
+├── wasm-bindgen-macro-support v0.2.99 (*)
+├── yoke-derive v0.7.5 (proc-macro) (*)
+├── zerocopy-derive v0.7.35 (proc-macro)
+│   └── zerocopy v0.7.35
+│       └── ppv-lite86 v0.2.20
+│           ├── rand_chacha v0.2.2 (*)
+│           └── rand_chacha v0.3.1 (*)
+├── zerofrom-derive v0.1.5 (proc-macro) (*)
+└── zerovec-derive v0.10.3 (proc-macro)
+    └── zerovec v0.10.4 (*)
+
+syn v2.0.92
+├── leptos_hot_reload v0.7.2 (*)
+├── proc-macro2-diagnostics v0.10.1
+│   └── rstml v0.12.0 (*)
+└── rstml v0.12.0 (*)
+
+tauri-utils v2.1.0 (*)
+
+tauri-utils v2.1.0 (*)
+
+thiserror v1.0.69 (*)
+
+thiserror v2.0.9 (*)
+
+thiserror-impl v1.0.69 (proc-macro) (*)
+
+thiserror-impl v2.0.9 (proc-macro) (*)
+
+time v0.3.37 (*)
+
+time v0.3.37 (*)
+
+toml v0.7.8 (*)
+
+toml v0.8.2 (*)
+
+toml_edit v0.19.15 (*)
+
+toml_edit v0.20.2 (*)
+
+tower v0.4.13 (*)
+
+tower v0.5.2 (*)
+
+uuid v1.11.0 (*)
+
+uuid v1.11.0 (*)
