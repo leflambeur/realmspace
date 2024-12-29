@@ -1,10 +1,11 @@
 use leptos::*;
-use leptos::server_fn::ServerFnError;
+use leptos::prelude::ServerFnError;
+
 #[cfg(feature = "ssr")]
 pub mod fallback;
 
 /// A simple server-side function to say "Hey."
-#[server(hello_world, "/api")]
-pub async fn hello_world_server() -> Result<String, ServerFnError> {
-    Ok("Hey.".to_string())
+#[server(name=HelloWorld, endpoint="HelloWorld")]
+pub async fn hello_world() -> Result<String, ServerFnError> {
+	Ok("Hey.".to_string())
 }

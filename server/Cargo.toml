@@ -5,20 +5,11 @@ edition = "2021"
 
 
 [dependencies]
-app = { path = "../app", features = ["ssr"] }
+app = { path = "../app" }
 backend = { path = "../backend", features = ["ssr"] }
 axum = { workspace = true }
-axum-macros = { workspace = true }
-leptos = { workspace = true }
+leptos = { workspace = true, features = ["ssr"]}
 leptos_axum = { workspace = true }
-leptos_router = { workspace = true }
 tokio = { workspace = true, features = ["rt-multi-thread"] }
 tower-http = { workspace = true, features = ["fs", "cors", "trace"] }
-tracing = { workspace = true }
-tracing-subscriber = { workspace = true, features = ["env-filter"] }
-tracing-opentelemetry = { workspace = true }
-opentelemetry = { workspace = true, features = ["trace", "metrics"] }
-opentelemetry_sdk = { workspace = true, features = ["trace", "rt-tokio"] }
-opentelemetry-semantic-conventions = { workspace = true }
-opentelemetry-otlp = { workspace = true, features = ["metrics"] }
-opentelemetry-stdout = { workspace = true, features = ["trace", "metrics"] }
+

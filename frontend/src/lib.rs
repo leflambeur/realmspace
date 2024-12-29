@@ -8,7 +8,7 @@ cfg_if::cfg_if! {
 				_ = console_log::init_with_level(log::Level::Debug);
 			#[cfg(debug_assertions)]
 			console_error_panic_hook::set_once();
-			leptos::mount_to_body(App);
+			leptos::mount::mount_to_body(App);
 		}
 	}
 }

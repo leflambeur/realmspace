@@ -8,7 +8,7 @@ crate-type = [
     "staticlib",
     "cdylib",
     "rlib",
-] # Allows multiple output formats for flexibility
+]
 
 [dependencies]
 # Core dependencies
@@ -16,15 +16,12 @@ leptos = { workspace = true } # Main Leptos framework
 
 # Optional dependencies for SSR and Axum-based server
 tower-http = { workspace = true, optional = true }
-leptos_server = { workspace = true }
 axum = { workspace = true, optional = true }
 leptos_axum = { workspace = true, optional = true }
 tower = { workspace = true, optional = true }
-[features]
-# Hydration for client-side rendering
-hydrate = ["leptos/hydrate"]
 
-# Server-Side Rendering (SSR) setup
+[features]
+hydrate = ["leptos/hydrate"]
 ssr = [
     "leptos/ssr",      # Enable SSR in Leptos
     "dep:leptos_axum", # Leptos integration with Axum

@@ -1,0 +1,7 @@
+/target
+frontend/dist
+dist
+.vscode
+#src-tauri/gen/
+.idea
+.DS_Store

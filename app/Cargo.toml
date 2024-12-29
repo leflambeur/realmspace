@@ -10,10 +10,11 @@ crate-type = ["staticlib", "cdylib", "rlib"]
 
 backend = { path = "../backend" }
 leptos = { workspace = true }
-leptos_router = { workspace = true }
 leptos_meta = { workspace = true }
+leptos_router = {workspace = true }
+urlencoding = { workspace = true }
 
 [features]
 csr = ["leptos/csr"]
 hydrate = ["leptos/hydrate", "backend/hydrate"]
-ssr = ["leptos/ssr", "backend/ssr", "leptos_router/ssr"]
+ssr = ["leptos/ssr", "backend/ssr", "leptos_router/ssr", "leptos_meta/ssr"]

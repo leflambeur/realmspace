@@ -11,7 +11,9 @@ cargo generate --git https://github.com/Alt-iOS/tailwind-leptos-tauri-template.g
 To test everything is working, run `cargo tauri dev` and `cargo leptos watch` to see the app in the browser and app.
 
 Thanks to the leptos and tauri teams for the amazing work.
-Also all credit to [sjud](https://github.com/sjud/leptos_tauri_from_scratch/tree/main) and [Krzysztof](https://gitlab.com/cristofa/tauri-leptos-template) for their examples, as they were the base for this template.
+Also all credit to [sjud](https://github.com/sjud/leptos_tauri_from_scratch/tree/main)
+and [Krzysztof](https://gitlab.com/cristofa/tauri-leptos-template) for their examples, as they were the base for this
+template.
 
 This project differs as it:
 
@@ -34,4 +36,5 @@ Mobile dev:
 
 - iOS requires a mac and XCode
 - Android requires JVM 17 or modifying the gradle version.
-  You can changge it in the distributionUrl and for compatibility [check](https://docs.gradle.org/current/userguide/compatibility.html)
+  You can changge it in the distributionUrl and for
+  compatibility [check](https://docs.gradle.org/current/userguide/compatibility.html)

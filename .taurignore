@@ -1,0 +1,48 @@
+# Ignore Rust build artifacts
+target
+Cargo.lock
+
+# Ignore version control metadata
+.git
+.gitignore
+.gitattributes
+
+# Ignore temporary files
+temp
+temp/*
+.tmp
+*.tmp
+
+# Ignore editor files
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Ignore Leptos-generated build files during dev
+frontend/pkg
+frontend/dist
+
+# Ignore Tailwind and development config files
+tailwind.config.js
+postcss.config.js
+
+# Ignore logs and debug files
+*.log
+debug.log
+*.bak
+
+# Ignore development environment files
+.env
+.env.*
+*.config.*
+*.sh
+
+# Include static assets explicitly
+!public/**
+
+# Exclude documentation
+*.md
+README
+README.*
