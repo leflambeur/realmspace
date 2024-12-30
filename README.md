@@ -71,7 +71,7 @@ This is all to say I am probably making a big mess and what works for me may not
   * I chose this as I wanted something as performant and small as possible and Leptos seemed to be a favourite for most people and I love the idea of WebAssembly being a big fan of some of the projects I have come across in the Kubernetes/Platform Eng space
 * Tauri - A Rust-Based Application Builder
   * This builds my application into both a browser app but also a native app (native being relative ofc)
-* Tailwind CSS - very common CSS post-processor
+* Tailwind CSS - popular CSS post-processor
   * I have never been into Tailwind but it keeps coming up and I do a lot of UX work in my day job so wanted some more experience with it and your options for components librariesin Rust are limited at best
 
 I started with the very [impressive template](https://github.com/Alt-iOS/tailwind-leptos-tauri-template) found here:
