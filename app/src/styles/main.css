@@ -1,4 +1,5 @@
-@import "../components/base/bubble.module.css";
+@import "base/bubble.module.css";
+@import "base/button.module.css";
 
 @tailwind base;
 @tailwind components;
@@ -51,10 +52,6 @@
     --bg-popup: #f0f0f0;
     --text-popup: black;
 
-    /* bubble */
-    --bubble-border-color: theme("colors.primary.text");
-    --bubble-bg-color: theme("colors.primary.bg");
-    --bubble-text-color: theme("colors.primary.text");
 }
 
 body {

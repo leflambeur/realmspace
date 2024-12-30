@@ -1,0 +1,20 @@
+.pixelButton {
+    @apply relative inline-block border-solid border-[5px] px-2 py-2 mx-3 my-2 font-minecraft;
+    background-color: var(--button-custom-bg, var(--bg-button, #f0f0f0));
+    color: var(--button-custom-text, var(--text-button, #000000));
+    box-shadow: 2px 2px 0 2px
+    var(--button-custom-shadow, var(--shadow-button, #000000)),
+    -2px -2px 0 2px var(--button-custom-bg, var(--bg-button, #f0f0f0));
+    border-image-source: var(--button-border-image);
+    border-image-slice: 3;
+    border-image-width: 2;
+    border-image-repeat: stretch;
+    border-image-outset: 2;
+    border-color: var(--button-custom-border, var(--border-button, #000000));
+}
+
+.pixelButton:active {
+    transform: translateY(2px);
+    box-shadow: 2px 2px 0 2px var(--button-custom-bg, var(--bg-button, #f0f0f0)),
+    -2px -2px 0 2px var(--button-custom-bg, var(--bg-button, #f0f0f0));
+}

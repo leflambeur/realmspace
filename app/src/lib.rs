@@ -1,7 +1,9 @@
 pub mod components;
 
 use components::base::bubble::*;
-use backend::{hello_world};
+use components::base::pixelbutton::*;
+
+use backend::hello_world;
 use leptos::prelude::*;
 use leptos_meta::*;
 use leptos_router::{
@@ -11,9 +13,9 @@ use leptos_router::{
 
 #[component]
 pub fn App() -> impl IntoView {
-	provide_meta_context();
+    provide_meta_context();
 
-	view! {
+    view! {
 		<!DOCTYPE html>
         <html lang="en">
             <head>
@@ -35,26 +37,27 @@ pub fn App() -> impl IntoView {
 
 #[component]
 pub fn Home() -> impl IntoView {
-
-	let action = Action::new(|_input: &()| async { hello_world().await });
-
-	view! {
-		<main>
+    let action = Action::new(|_input: &()| async { hello_world().await });
+    view! {
+		<div class="columns-1">
 			<Bubble
 				direction=Direction::Left
-				on:click = move |_| {action.dispatch(());}
+				border_color="#000000".to_string()
+				bg_color="#fefcd0".to_string()
+				text_color="#000000".to_string()
 			>
-				<p>"Click the bubble to trigger the server action!"</p>
+		<p>{ move || { format!("{:#?}", action.value().get())} }</p>
 			</Bubble>
-	
-			<button
-				class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+
+			<PixelButton
+				border_color="#000000".to_string()
+				bg_color="#fefcd0".to_string()
+				text_color="#000000".to_string()
+				shadow_color="#c381b5".to_string()
 				on:click = move |_| {action.dispatch(());}
 			>
-				"Click the button to trigger the server action!"
-			</button>
-	
-			<p>{move || format!("{:#?}", action.value().get())} </p>
-		</main>
+		"Press this button to activate the server function!"
+		</PixelButton>
+		</div>
 	}
 }
