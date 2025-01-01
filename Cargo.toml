@@ -1,6 +1,6 @@
 [workspace]
 resolver = "2"
-members = ["src-tauri", "frontend", "backend", "app", "server"]
+members = ["app", "backend", "frontend"]
 
 [profile.release]
 codegen-units = 1
@@ -16,10 +16,9 @@ opt-level = 3
 [[workspace.metadata.leptos]]
 # project name
 name = "realmspace"
-bin-package = "server"
-lib-package = "frontend"
-output-name = "realmspace"
 assets-dir = "public"
+bin-package = "backend"
+lib-package = "frontend"
 tailwind-input-file = "app/src/styles/main.css"
 site-pkg-dir = "pkg"
 site-root = "target/site"
@@ -28,24 +27,25 @@ reload-port = 8001
 browserquery = "defaults"
 watch = false
 env = "DEV"
-bin-features = []
+bin-features = ["ssr", "tracing"]
 bin-default-features = false
-lib-features = ["hydrate"]
+lib-features = ["hydrate", "tracing"]
 lib-default-features = false
 
 [workspace.dependencies]
 axum = "0.7.9"
-leptos = "0.7"
-leptos_axum = "0.7"
-leptos_meta = "0.7"
-leptos_router = "0.7"
-serde_json = "*"
-tauri = "2.1.1"
-tauri-build = "2.0.3"
+leptos = "0.7.2"
+leptos_axum = "0.7.2"
+leptos_meta = "0.7.2"
+leptos_router = "0.7.2"
+tracing = "0.1.41"
+#tower = "0.4.13"
+#tower-http = "0.5.2"
+#serde_json = "*"
+#tauri = "2.1.1"
+#tauri-build = "2.0.3"
 tokio = "1.42.0"
-tower = "0.5"
-tower-http = "0.6.2"
-urlencoding = "2.1.3"
+urlencoding = "2.1"
 cfg-if = "1.0.0"
 console_error_panic_hook = "0.1.7"
 console_log = "1.0.0"

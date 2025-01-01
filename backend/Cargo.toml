@@ -3,29 +3,14 @@ name = "backend"
 version = "0.1.0"
 edition = "2021"
 
-[lib]
-crate-type = [
-    "staticlib",
-    "cdylib",
-    "rlib",
-]
-
 [dependencies]
-# Core dependencies
-leptos = { workspace = true } # Main Leptos framework
-
-# Optional dependencies for SSR and Axum-based server
-tower-http = { workspace = true, optional = true }
-axum = { workspace = true, optional = true }
-leptos_axum = { workspace = true, optional = true }
-tower = { workspace = true, optional = true }
+app = { path = "../app" }
+axum = { workspace = true }
+leptos = { workspace = true }
+leptos_axum = { workspace = true}
+tokio = { workspace = true, features = ["rt-multi-thread"] }
 
 [features]
-hydrate = ["leptos/hydrate"]
-ssr = [
-    "leptos/ssr",      # Enable SSR in Leptos
-    "dep:leptos_axum", # Leptos integration with Axum
-    "dep:axum",        # Axum web framework
-    "dep:tower",       # Core Tower utilities
-    "dep:tower-http",  # Tower HTTP utilities
-]
+ssr = ["leptos/ssr"]
+islands = ["leptos/islands"]
+tracing = ["leptos/tracing", 'leptos_axum/tracing', 'axum/tracing']

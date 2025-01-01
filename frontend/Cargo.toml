@@ -3,7 +3,6 @@ name = "frontend"
 version = "0.1.0"
 edition = "2021"
 
-
 [lib]
 crate-type = ["staticlib", "cdylib", "rlib"]
 
@@ -12,15 +11,17 @@ name = "frontend_bin"
 path = "./src/main.rs"
 
 [dependencies]
-leptos = { workspace = true }
 app = { path = "../app" }
-cfg-if = { workspace = true }
+leptos = { workspace = true }
 wasm-bindgen = { workspace = true }
 console_log = { workspace = true }
 log = { workspace = true }
 console_error_panic_hook = { workspace = true }
-
+cfg-if = "1.0.0"
 
 [features]
-csr = ["leptos/csr", "app/csr"]
+csr = ["leptos/csr"]
 hydrate = ["leptos/hydrate", "app/hydrate"]
+ssr = ["leptos/ssr"]
+islands = ["leptos/islands"]
+tracing = ["leptos/tracing"]

@@ -1,5 +1,5 @@
-@import "base/bubble.module.css";
-@import "base/button.module.css";
+@import "../components/base/styles/bubble.module.css";
+@import "../components/base/styles/button.module.css";
 
 @tailwind base;
 @tailwind components;
@@ -10,50 +10,5 @@
     src: url("../fonts/Minecraft.otf") format("opentype");
     font-weight: normal;
     font-style: normal;
-}
-
-:root {
-    --primary-bg: theme("colors.primary.bg");
-    --primary-text: theme("colors.primary.text");
-    --primary-shadow: theme("colors.primary.shadow");
-    --secondary-bg: theme("colors.secondary.bg");
-    --secondary-text: theme("colors.secondary.text");
-    --secondary-shadow: theme("colors.secondary.shadow");
-    --outline-text: theme("colors.outline.text");
-    --card-text-color: theme("colors.outline.text");
-    --primary-bg-dropdown: white;
-    /* textarea */
-    --bg-textarea: #f0f0f0;
-    --text-textarea: #000000;
-    --border-textarea-rgb: 0, 0, 0;
-
-    /* progressbar */
-    --color-progressbar: #000000;
-    --border-progressbar: #000000;
-
-    /* input */
-    --bg-input: white;
-    --text-input: black;
-    --border-input: black;
-
-    /* card */
-    --bg-card: white;
-    --text-card: black;
-    --border-card: #000000;
-    --shadow-card: #767676;
-
-    /* dropdown */
-    --bg-dropdown: transparent;
-    --text-dropdown: #000000;
-    --border-dropdown: #000000;
-
-    /* popup */
-    --bg-popup-base: white;
-    --bg-popup: #f0f0f0;
-    --text-popup: black;
-
-}
-
-body {
-    font-family: "Minecraft", sans-serif;
+    font-display: swap;
 }
