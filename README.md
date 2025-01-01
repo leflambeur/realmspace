@@ -4,7 +4,7 @@ Project to learn Rust, UX Design, Reactice Webdev, Data Structure/API Design, Fu
 Disclaimers:
 * I started with Rust the same day I started this project, this means I probably have been naive and incorrect in some of my implementation.
 * I have some limited frontend experience but not a lot, so I am learning reactive design, implementation, tailwind etc at the same time.
-* While I am experienced with devops/platform eng, I never normally need to structure projects myself correctly so forgive me if I have made mistakes.
+* While I am experienced with devops/platform eng, I never normally need to structure projects myself so forgive me if I have made mistakes.
 
 This is all to say I am probably making a big mess and what works for me may not work for you, but it's part of the journey.
 
@@ -44,9 +44,9 @@ Occasionally it is a good idea to run `cargo clean` to clean up leftover artifac
 
 This project is for me to learn several disciplines I am interested in. 
 
-It's been a while since I have done any development on my own, and truth be told I have only ever been a minor contributor to projects I have worked for. 
+It's been a while since I have done any development on my own, and truth be told I have only ever been a minor contributor to projects in the past. 
 
-I don't think I have ever done a project for my own sake, so I wanted to get back into it at the deep end building an overengineered, technology-shoehorned-in, Rust-based Fullstack app.
+I wanted to get back into it at the deep end building an overengineered, technology-shoehorned-in, Rust-based Fullstack app for my own sake.
 
 ### Goal
 
