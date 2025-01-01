@@ -1,5 +1,5 @@
 # Realmspace
-Project to learn Rust, UX Design, Reactice Webdev, Data Structure/API Design, FullStack Application building etc
+Project to learn Rust, UX Design, Reactive Webdev, Data Structure/API Design, FullStack Application building etc
 
 Disclaimers:
 * I started with Rust the same day I started this project, this means I probably have been naive and incorrect in some of my implementation.
