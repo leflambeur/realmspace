@@ -2,7 +2,7 @@
 Project to learn Rust, UX Design, Reactive Webdev, Data Structure/API Design, FullStack Application building etc
 
 Disclaimers:
-* I started with Rust the same day I started this project, this means I probably have been naive and incorrect in some of my implementation.
+* I started with Rust the same day I started this project, this means I probably have been naive and incorrect with my implementation.
 * I have some limited frontend experience but not a lot, so I am learning reactive design, implementation, tailwind etc at the same time.
 * While I am experienced with devops/platform eng, I never normally need to structure projects myself so forgive me if I have made mistakes.
 
@@ -11,42 +11,46 @@ This is all to say I am probably making a big mess and what works for me may not
 ## Get Started:
 To get started you need the rust toolchain and some extras.
 
-### Install Rust:
-
+>If you are on a Mac you will probably need Xcode installed
+>
+>```bash
+> xcode-select --install
+>```
+>
+Install Rust:
 ```bash
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
-This project is built against `Stable`, not `Nightly`.
+This project is built against `Stable`, not `Nightly` so you can just accept the default options.
 
-### Install Extras:
-```bash
-cargo install cargo-leptos
-cargo install tauri-cli
-```
-
-### Set up the Correct Targets:
+Set up the Correct Compilation Target:
 ```bash
 rustup target add wasm32-unknown-unknown
 ```
+Install Extras:
+```bash
+cargo install cargo-leptos
+```
 
-### Run the Project
-To just run the webserver and application code:
+Run the Project
 ```bash
 cargo leptos watch
 ```
 And then just open your browser at http://localhost:8000
 
-Because I am building against stable Rust I do not have auto-reload enabled but the watch command will rebuild on the fly.
+Because I am building against `stable` Rust I do not have auto-reload enabled but the watch command will rebuild on the fly you just need to refresh the page.
+
+`Nightly` builds of Leptos support hot-reloading, but I am sticking to stable for the time being.
 
 Occasionally it is a good idea to run `cargo clean` to clean up leftover artifacts as the accrue pretty quickly.
 
-## What is this Project?
+## What is this project?
 
 This project is for me to learn several disciplines I am interested in. 
 
-It's been a while since I have done any development on my own, and truth be told I have only ever been a minor contributor to projects in the past. 
+It's been a while since I have done any development on my own, and truth be told, I have only ever been a minor contributor to projects in the past. 
 
-I wanted to get back into it at the deep end building an overengineered, technology-shoehorned-in, Rust-based Fullstack app for my own sake.
+I wanted to get back into it at the deep-end building an overengineered, technology-shoehorned-in, Rust-based Fullstack app for my own sake.
 
 ### Goal
 
@@ -85,7 +89,49 @@ Components
 Additional
 * `frontend` - Responsible for generating WASM
 * `backend` - Responsible for the actual server aspect
+* `public` - This is just the assets folder - it has some fonts in it
 * ~~`src-tauri` - configuration and build scripts for tauri to build different applications properly~~
+
+### Layout Structure
+
+For the Web-Dev side the structure should be familiar to most React devs but if it helps, here it is laid out logically:
+
+```mermaid
+---
+title: Layout Structure
+---
+flowchart LR
+Shell-->App
+App-->Route1
+App-->Route2
+Route1-->Islands
+Route1-->Static
+Route2-->Islands
+Route2-->Static
+Islands-->Base
+Static-->Base
+```
+
+* App
+  * Files: `app/src/lib.rs`
+  * Shell is a wrapper function for the `<head>` tags with some of the Tailwind/Meta configurations built in and calls App as a separate component
+  * App is the main piece to worry about as it contains `<body>` tags and also the routing information (i.e. which pages are available)
+* Routes
+  * Files: `app/src/routes/*`
+  * The various routes/pages defined in the application (i.e. Homepage, About etc) - these are usually composed of a mix of Island, Static and Base components
+* Components
+  * Islands
+    * Files: `app/src/components/islands/*`
+    * Islands are an experimental feature of Leptos where a distinction is made for components of a page that require reactivity/dynamic changes (i.e. progress bar)
+    * Islands are the interactive ones and I thought it best to separate them from static ones
+  * Static
+    * Files: `app/src/components/static/*`
+    * Static Components don't require reactivity and are rendered as pure html/css at compile time - this can supremely improve performance and allows for fine-tuning your applications load/size at the cost of some more advanced capabilities in static areas
+  * Base
+    * Files: `app/src/components/base/*` 
+    * All components I build for the application are made from fundamental building block you find here
+
+> Styling is collocated at each individual level with an appropriate `styles` directory.
 
 ### Important Packages
 
@@ -125,5 +171,7 @@ You'll notice some of the project structure is similar but I have diverged from 
 * ~~[Leptos Islands](https://book.leptos.dev/islands.html)~~ - Done
   * ~~This feels like the correct way to optimise performance utilizing pure html+css where possible and then 'islands' of WASM for interactive tasks~~
 * ~~[Tracing](https://github.com/tokio-rs/tracing)~~ Done + [Tokio Console](https://github.com/tokio-rs/console) for better performance measuring and automating benchmarks
-  * Understandably the original template was trying to use OpenTelemetry with Tracing - but I found it a bit icky with docker-compose and jaeger - I may yet revisit otel but I am more interested in solutions like Tokio-Console and Parca from Polar Signals for future deployments
+  * Understandably the original template was trying to use OpenTelemetry with Tracing - but I found it a bit icky with docker-compose and jaeger - I may yet revisit otel but I am more interested in solutions like Tokio-Console and Parca from Polar Signals for future deployments.
+* Gherkin and Cucumber or some test framework
+  * I like the idea of using Rust comments and also Gherkin test syntax to auto-build docs and I do want to learn testing strategies with this project as well.
 
