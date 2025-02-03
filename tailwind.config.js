@@ -17,7 +17,7 @@ module.exports = {
             p4: '#e6f2ef',
         },
         fontFamily: {
-            sans: ['Minecraft', 'sans-serif'],
+            sans: ['Stepalange', 'sans-serif'],
         },
         extend: {
             boxShadow: {},

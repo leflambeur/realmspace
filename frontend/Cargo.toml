@@ -17,7 +17,7 @@ wasm-bindgen = { workspace = true }
 console_log = { workspace = true }
 log = { workspace = true }
 console_error_panic_hook = { workspace = true }
-cfg-if = "1.0.0"
+cfg-if = { workspace = true }
 
 [features]
 csr = ["leptos/csr"]

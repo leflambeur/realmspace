@@ -1,0 +1,24 @@
+[package]
+name = "zoku"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[[bin]]
+name = "zoku_bin"
+path = "src/main.rs"
+
+[dependencies]
+candle-core = { version = "0.8.2", features = ["metal", "accelerate"] }
+candle-transformers = { version = "0.8.2", features = ["metal", "accelerate"] }
+candle-nn = { version = "0.8.2", features = ["metal", "accelerate"] }
+tokenizers = { version = "0.21.0" }
+accelerate-src = { version = "0.3.2" }
+anyhow = "1.0.95"
+serde = { version = "1.0.217", features = ["derive"] }
+burn = { version = "0.16.0" }
+llama-burn = { git = "https://github.com/tracel-ai/models", package = "llama-burn" }
+
+[workspace]

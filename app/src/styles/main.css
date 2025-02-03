@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: "Minecraft";
-    src: url("../fonts/Minecraft.otf") format("opentype");
+    font-family: "Stepalange";
+    src: url("../fonts/Stepalange.otf") format("opentype");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
